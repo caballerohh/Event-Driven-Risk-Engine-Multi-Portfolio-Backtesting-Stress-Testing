@@ -1,3 +1,5 @@
+# Event-Driven-Risk-Engine-Multi-Portfolio-Backtesting-Stress-Testing
+
 This repository features a specialized quantitative framework designed to evaluate portfolio resilience during historical stress events (e.g., pandemic shocks, geopolitical conflicts). The engine automates the validation of risk models through systematic backtesting and visualizes tail risk evolution across regional and sectoral portfolios.
 
 Objective: To quantify the impact of tail risk events on diversified portfolios and validate the accuracy of Value at Risk (VaR) and Conditional VaR (CVaR) models.
