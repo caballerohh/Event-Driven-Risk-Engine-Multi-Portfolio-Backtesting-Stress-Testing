@@ -7,8 +7,8 @@
 Extended Version
 The system analyzes multiple thematic portfolios (Peru, South America, North America, and Global) during specific high-volatility windows. It utilizes a "look-back" window of 252 trading days to calibrate risk thresholds and a 40-day "stress-window" to monitor model breaches (violations), providing a rigorous statistical audit of downside risk protection.
 Key Objectives of the Analysis
-**Event-Specific Stress Testing:** Isolation of key historical dates to analyze asset behavior during market dislocations (e.g., March 2020, October 2023).
-•	Dynamic Risk Backtesting: Implementation of Rolling VaR (95%) to track the frequency and magnitude of violations, identifying potential model underestimation.
+* **Event-Specific Stress Testing:** Isolation of key historical dates to analyze asset behavior during market dislocations (e.g., March 2020, October 2023).
+* **Dynamic Risk Backtesting:** Implementation of Rolling VaR (95%) to track the frequency and magnitude of violations, identifying potential model underestimation.
 •	Tail Risk Quantification (CVaR): Evaluation of Expected Shortfall (Conditional VaR) to measure the average loss in the worst 5% of cases, offering a deeper view than standard VaR.
 •	Regional Portfolio Comparison: Comparative analysis of risk metrics between specialized portfolios, such as the P_Peru (BVN, SCCO) vs. P_Norteamerica (FCX, HL, etc.).
 
