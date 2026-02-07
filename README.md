@@ -29,13 +29,13 @@ The engine processes a diverse universe of mining and industrial equities across
 •	**Data Processing Layer:** Automated retrieval of global tickers via yfinance with adaptive date handling for different international exchanges.
 •	**Risk Calculation Engine:** * rolling().quantile(0.05): For dynamic VaR estimation.
 o	**Conditional VaR:** Calculated as the mean of returns exceeding the VaR threshold.
-•	Backtesting Module: Identification of "Violations" where actual returns fall below the predicted VaR, marked with specialized markers in the visual reports.
-•	Visualization Suite:
-o	CVaR Overlap: Synchronized plotting of multiple portfolios during the same event window for direct comparison.
-o	Backtesting Scatter: High-contrast visualization of outliers and model failures.
+• **Backtesting Module:** Identification of "Violations" where actual returns fall below the predicted VaR, marked with specialized markers in the visual reports.
+•	**Visualization Suite:**
+o	**CVaR Overlap:** Synchronized plotting of multiple portfolios during the same event window for direct comparison.
+o	**Backtesting Scatter:** High-contrast visualization of outliers and model failures.
 
 # Technologies/Concepts Used
-•	Quantitative Risk Management: VaR Backtesting, Conditional VaR (Expected Shortfall).
-•	Stress Testing: Event-Driven Analysis, Historical Simulation.
-•	Python Stack: Pandas (Time-series manipulation), NumPy (Statistical vectorization), Matplotlib (Advanced risk plotting).
-•	Asset Classes: Global Mining Equities, Base & Precious Metals (Copper, Gold, Silver).
+•	**Quantitative Risk Management:** VaR Backtesting, Conditional VaR (Expected Shortfall).
+•	**Stress Testing:** Event-Driven Analysis, Historical Simulation.
+•	**Python Stack:** Pandas (Time-series manipulation), NumPy (Statistical vectorization), Matplotlib (Advanced risk plotting).
+•	**Asset Classes:** Global Mining Equities, Base & Precious Metals (Copper, Gold, Silver).
