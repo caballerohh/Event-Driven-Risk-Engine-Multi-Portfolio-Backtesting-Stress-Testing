@@ -21,7 +21,7 @@ The engine processes a diverse universe of mining and industrial equities across
 * **Grupal:** BHP, GLEN.L, FCX, FM.TO, RIO.
 
 # 📊 Key Portfolio & Risk Results
-•	**Tail Risk Sensitivity:** Identification of heightened CVaR levels during specific "Event Windows," allowing for the ranking of portfolios by their defensive capabilities.
+•	* **Tail Risk Sensitivity:** Identification of heightened CVaR levels during specific "Event Windows," allowing for the ranking of portfolios by their defensive capabilities.
 •	**Model Integrity:** Through the Backtesting Graph, the system identifies clusters of VaR violations, signaling periods where market volatility exceeded statistical expectations (e.g., early 2020 shocks).
 •	**Diversification Benefit:** Analysis of the "P_Grupal" vs. regional portfolios to quantify the reduction in idiosyncratic risk through global asset allocation.
 
