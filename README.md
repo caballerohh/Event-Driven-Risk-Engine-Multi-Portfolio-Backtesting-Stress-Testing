@@ -21,21 +21,21 @@ The engine processes a diverse universe of mining and industrial equities across
 * **P_Grupal:** BHP, GLEN.L, FCX, FM.TO, RIO.
 
 # 📊 Key Portfolio & Risk Results
-•	**Tail Risk Sensitivity:** Identification of heightened CVaR levels during specific "Event Windows," allowing for the ranking of portfolios by their defensive capabilities.
-•	**Model Integrity:** Through the Backtesting Graph, the system identifies clusters of VaR violations, signaling periods where market volatility exceeded statistical expectations (e.g., early 2020 shocks).
-•	**Diversification Benefit:** Analysis of the "P_Grupal" vs. regional portfolios to quantify the reduction in idiosyncratic risk through global asset allocation.
+•	**P_Tail Risk Sensitivity:** Identification of heightened CVaR levels during specific "Event Windows," allowing for the ranking of portfolios by their defensive capabilities.
+•	**P_Model Integrity:** Through the Backtesting Graph, the system identifies clusters of VaR violations, signaling periods where market volatility exceeded statistical expectations (e.g., early 2020 shocks).
+•	**P_Diversification Benefit:** Analysis of the "P_Grupal" vs. regional portfolios to quantify the reduction in idiosyncratic risk through global asset allocation.
 
 # 🛠️ Code Structure & Pipeline
-•	**Data Processing Layer:** Automated retrieval of global tickers via yfinance with adaptive date handling for different international exchanges.
-•	**Risk Calculation Engine:** * rolling().quantile(0.05): For dynamic VaR estimation.
+•	**P_Data Processing Layer:** Automated retrieval of global tickers via yfinance with adaptive date handling for different international exchanges.
+•	**P_Risk Calculation Engine:** * rolling().quantile(0.05): For dynamic VaR estimation.
 o	**Conditional VaR:** Calculated as the mean of returns exceeding the VaR threshold.
-• **Backtesting Module:** Identification of "Violations" where actual returns fall below the predicted VaR, marked with specialized markers in the visual reports.
-•	**Visualization Suite:**
+• **P_Backtesting Module:** Identification of "Violations" where actual returns fall below the predicted VaR, marked with specialized markers in the visual reports.
+•	**P_Visualization Suite:**
 o	**CVaR Overlap:** Synchronized plotting of multiple portfolios during the same event window for direct comparison.
 o	**Backtesting Scatter:** High-contrast visualization of outliers and model failures.
 
 # Technologies/Concepts Used
-•	**Quantitative Risk Management:** VaR Backtesting, Conditional VaR (Expected Shortfall).
-•	**Stress Testing:** Event-Driven Analysis, Historical Simulation.
-•	**Python Stack:** Pandas (Time-series manipulation), NumPy (Statistical vectorization), Matplotlib (Advanced risk plotting).
-•	**Asset Classes:** Global Mining Equities, Base & Precious Metals (Copper, Gold, Silver).
+•	**P_Quantitative Risk Management:** VaR Backtesting, Conditional VaR (Expected Shortfall).
+•	**P_Stress Testing:** Event-Driven Analysis, Historical Simulation.
+•	**P_Python Stack:** Pandas (Time-series manipulation), NumPy (Statistical vectorization), Matplotlib (Advanced risk plotting).
+•	**P_Asset Classes:** Global Mining Equities, Base & Precious Metals (Copper, Gold, Silver).
