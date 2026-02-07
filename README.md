@@ -15,7 +15,8 @@ Key Objectives of the Analysis
 # 🔍 Portfolios & Assets Analyzed
 The engine processes a diverse universe of mining and industrial equities across different jurisdictions:
 
-**P_Peru: BVN (Buenaventura), SCCO (Southern Copper).
+**P_Peru:** BVN (Buenaventura), SCCO (Southern Copper).
+- P_Peru: BVN (Buenaventura), SCCO (Southern Copper).
 *P_Sudamerica: FM.TO, HBM, SCCO, GMEXICOB.MX.
 •	P_Norteamerica: FCX (Freeport-McMoRan), HL (Hecla Mining), HBM, FM.TO.
 •	P_Grupal: BHP, GLEN.L, FCX, FM.TO, RIO.
