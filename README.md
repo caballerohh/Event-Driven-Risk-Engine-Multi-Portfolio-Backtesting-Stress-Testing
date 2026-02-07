@@ -12,19 +12,19 @@ Key Objectives of the Analysis
 •	Tail Risk Quantification (CVaR): Evaluation of Expected Shortfall (Conditional VaR) to measure the average loss in the worst 5% of cases, offering a deeper view than standard VaR.
 •	Regional Portfolio Comparison: Comparative analysis of risk metrics between specialized portfolios, such as the P_Peru (BVN, SCCO) vs. P_Norteamerica (FCX, HL, etc.).
 
-Portfolios & Assets Analyzed
+#Portfolios & Assets Analyzed
 The engine processes a diverse universe of mining and industrial equities across different jurisdictions:
 •	P_Peru: BVN (Buenaventura), SCCO (Southern Copper).
 •	P_Sudamerica: FM.TO, HBM, SCCO, GMEXICOB.MX.
 •	P_Norteamerica: FCX (Freeport-McMoRan), HL (Hecla Mining), HBM, FM.TO.
 •	P_Grupal: BHP, GLEN.L, FCX, FM.TO, RIO.
 
-Key Portfolio & Risk Results
+#Key Portfolio & Risk Results
 •	Tail Risk Sensitivity: Identification of heightened CVaR levels during specific "Event Windows," allowing for the ranking of portfolios by their defensive capabilities.
 •	Model Integrity: Through the Backtesting Graph, the system identifies clusters of VaR violations, signaling periods where market volatility exceeded statistical expectations (e.g., early 2020 shocks).
 •	Diversification Benefit: Analysis of the "P_Grupal" vs. regional portfolios to quantify the reduction in idiosyncratic risk through global asset allocation.
 
-Code Structure & Pipeline
+#Code Structure & Pipeline
 •	Data Processing Layer: Automated retrieval of global tickers via yfinance with adaptive date handling for different international exchanges.
 •	Risk Calculation Engine: * rolling().quantile(0.05): For dynamic VaR estimation.
 o	Conditional VaR: Calculated as the mean of returns exceeding the VaR threshold.
@@ -33,7 +33,7 @@ o	Conditional VaR: Calculated as the mean of returns exceeding the VaR threshold
 o	CVaR Overlap: Synchronized plotting of multiple portfolios during the same event window for direct comparison.
 o	Backtesting Scatter: High-contrast visualization of outliers and model failures.
 
-Technologies/Concepts Used
+#Technologies/Concepts Used
 •	Quantitative Risk Management: VaR Backtesting, Conditional VaR (Expected Shortfall).
 •	Stress Testing: Event-Driven Analysis, Historical Simulation.
 •	Python Stack: Pandas (Time-series manipulation), NumPy (Statistical vectorization), Matplotlib (Advanced risk plotting).
